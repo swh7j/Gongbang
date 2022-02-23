@@ -44,4 +44,4 @@
 ![image](https://user-images.githubusercontent.com/91528977/154822964-f584edac-1496-468c-b033-f4a43771ff3c.png)
 
 ## 5. DB 구조도
-![image](https://user-images.githubusercontent.com/91528977/154823049-81f31c2d-a56f-4cd1-81c7-3f734787a4d1.png)
+![image](https://user-images.githubusercontent.com/91528977/155277316-67ee350c-84f9-49ed-b88f-e2bc5ca7cb78.png)
