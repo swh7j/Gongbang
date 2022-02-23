@@ -40,7 +40,7 @@ https://www.youtube.com/watch?v=99xE80Gi0mU
   
 ## 3. 개발 환경
 - 운영체제 : Windows10  
-- Teck Stack : Java, InteliJ, Html/Css, JS, Ajax, Api, JQuery, BootStrap, My-sql, SPring, Git
+- Teck Stack : Java, InteliJ, Html/Css, JS, Ajax, Api, JQuery, BootStrap, My-sql, Spring, Git
   
 ## 4. 컨트롤러 구조도
 ![image](https://user-images.githubusercontent.com/91528977/154822964-f584edac-1496-468c-b033-f4a43771ff3c.png)
