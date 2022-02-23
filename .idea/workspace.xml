@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="287172d0-d963-4f6f-922f-fcfc125c2dc5" name="Changes" comment="" />
+    <list default="true" id="287172d0-d963-4f6f-922f-fcfc125c2dc5" name="Changes" comment="2/23 final">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ezen/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ezen/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ezen/controller/RoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ezen/controller/RoomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ezen/domain/dto/ReplyDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ezen/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ezen/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ezen/service/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ezen/service/RoomService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/member/channel.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/member/channel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/member/member_class.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/member/member_class.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/room/room_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/room/room_view.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +62,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
   <component name="RunManager">
+    <configuration name="AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ezen.AppStart" />
+      <module name="gongbang.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ezen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -61,6 +86,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppStart" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -71,6 +101,14 @@
       <option name="presentableId" value="Default" />
       <updated>1645599684430</updated>
     </task>
+    <task id="LOCAL-00001" summary="2/23 final">
+      <created>1645600084594</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645600084594</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,5 +121,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2/23 final" />
+    <option name="LAST_COMMIT_MESSAGE" value="2/23 final" />
   </component>
 </project>

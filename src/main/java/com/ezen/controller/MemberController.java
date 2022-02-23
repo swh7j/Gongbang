@@ -550,7 +550,7 @@ public class MemberController { // C S
         return "member/calculate_page";
     }
 
-    // 02-15 채널 정보 출력 - 조지훈
+    // 02-15 채널 정보 출력
     @GetMapping("/channel/{memberNo}")
     public String channel(@PathVariable("memberNo") int memberNo, Model model) {
 
@@ -570,7 +570,7 @@ public class MemberController { // C S
             }
             model.addAttribute("memberEntity", memberEntity);
         }
-        // 02-17 조지훈
+        // 02-17
         String realimg = null;
         if (memberEntity.getChannelImg() != null) {
             realimg = memberEntity.getChannelImg().split("_")[1];
@@ -580,17 +580,17 @@ public class MemberController { // C S
         return "member/channel";
     }
 
-    // 02-15 채널 정보 등록  - 조지훈
+    // 02-15 채널 정보 등록
     @PostMapping("/channelregistration")
     public String channelregistration(@RequestParam("memberNo") int memberNo,
                                       @RequestParam("channelContent") String channelContent,
                                       @RequestParam("channelTitle") String channelTitle,
                                       @RequestParam("memberImg") MultipartFile file) {
         try {
-            String uuidfile = null; // 02-17 조지훈
-            if (!file.getOriginalFilename().equals("")) { // 02-17 조지훈
+            String uuidfile = null; // 02-17
+            if (!file.getOriginalFilename().equals("")) {
                 UUID uuid = UUID.randomUUID();
-                uuidfile = uuid.toString() + "_" + file.getOriginalFilename().replaceAll("_", "-"); // 02-17 조지훈
+                uuidfile = uuid.toString() + "_" + file.getOriginalFilename().replaceAll("_", "-");
                 String dir = "C:\\gongbang\\build\\resources\\main\\static\\channelimg";
 
                /* String dir = "/home/ec2-user/gongbang/build/resources/main/static/channelimg";*/
@@ -606,7 +606,7 @@ public class MemberController { // C S
         return "redirect:/member/channel/" + memberNo;
     }
 
-    // 02-17 채널 정보 수정시 기존이미지 삭제버튼 - 조지훈
+    // 02-17 채널 정보 수정시 기존이미지 삭제버튼
     @PostMapping("/channelimgdelete")
     @ResponseBody
     public String channelimgdelete(@RequestParam("memberNo") int memberNo) {
@@ -618,7 +618,7 @@ public class MemberController { // C S
         }
     }
 
-    // 02-17 강사소개 작성여부 체크 - 조지훈
+    // 02-17 강사소개 작성여부 체크
     @GetMapping("/channelcheck")
     @ResponseBody
     public String channelcheck(@RequestParam("memberNo") int memberNo) {

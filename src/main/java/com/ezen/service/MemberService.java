@@ -98,7 +98,7 @@ public class MemberService implements UserDetailsService {
         // 2. 찾은 entity를 dto 변경후 반환 [ 패스워드 , 수정날짜 제외 ]
 
         return MemberDto.builder()
-                // 02-17 조지훈
+
                 .memberNo(memberEntity.get().getMemberNo())
                 // end
                 .memberName(memberEntity.get().getMemberName())
@@ -204,7 +204,7 @@ public class MemberService implements UserDetailsService {
         }
     }
 
-    // 02-15 채널 정보 등록하기 - 조지훈
+    // 02-15 채널 정보 등록하기
     @Transactional
     public boolean channelregistration(MemberEntity memberEntity) {
         try {
@@ -219,7 +219,7 @@ public class MemberService implements UserDetailsService {
         }
     }
 
-    // 02-17 채널 정보 수정시 기존이미지 삭제버튼 - 조지훈
+    // 02-17 채널 정보 수정시 기존이미지 삭제버튼
     @Transactional
     public boolean channelimgdelete(int memberNo) {
         try {
@@ -232,7 +232,7 @@ public class MemberService implements UserDetailsService {
         }
     }
 
-    // 02-17 강사소개 작성여부 체크 - 조지훈
+    // 02-17 강사소개 작성여부 체크
     public boolean channelcheck(int memberNo) {
         MemberEntity memberEntity = memberRepository.findById(memberNo).get();
         if (memberEntity.getChannelContent() == null) {

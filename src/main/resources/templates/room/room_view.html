@@ -28,12 +28,12 @@
                             <div class="carousel-item active">
                                 <img th:src="@{'/roomimg/'+${roomEntity.roomImgEntities.get(0).roomImg} }" class="">
                             </div>
-                            <!-- 02-15 조지훈 -->
+
                             <div class="carousel-item"
                                  th:each="num : ${#numbers.sequence( 1 , roomEntity.roomImgEntities.size()-1  )}">
                                 <img th:src="@{'/roomimg/' + ${roomEntity.roomImgEntities.get(num).roomImg} }" class="">
                             </div>
-                            <!-- 02-15 조지훈 end -->
+
                         </div>
                         <button class="carousel-control-prev" type="button"
                                 th:data-bs-target="${'#carousel' + roomEntity.roomNo}" data-bs-slide="prev">
@@ -49,12 +49,12 @@
                 </div>
                 <div class="px-3">
 
-                    <!-- 02-15 조지훈 -->
+
                     <div class="catagory">
                         <span>카테고리</span>
                         <span class="" th:text="${roomEntity.roomCategory}"></span>
                     </div>
-                    <!-- 02-15 조지훈 end -->
+
                     <hr>
 
                     <div class="title">
@@ -143,12 +143,12 @@
                         </div>
                         <hr>
                         <div>
-                            <!-- 02-15 조지훈 -->
+
                             <h4 id="teacherinfo" style="font-weight: bold;">강사소개</h4>
                             <p th:utext="${roomEntity.memberEntity.channelContent}"></p>
 
 
-                            <!-- 02-15 조지훈 end -->
+
                         </div>
                         <hr>
                         <div>

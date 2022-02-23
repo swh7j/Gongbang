@@ -42,7 +42,7 @@
                 -->
                             <div sec:authorize="isAuthenticated()" class="col-12 col-sm-6 col-md-5">
                                 <a th:href="@{/room/register}">
-                                    <!-- 02-17 강사소개 null이면 강사소개 작성 페이지로 이동 조지훈 -->
+                                    <!-- 02-17 강사소개 null이면 강사소개 작성 페이지로 이동  -->
                                     <button class="classregistbtn" type="button" th:onclick="channelcheck([[${session.logindto.memberNo}]]);">
                                         공방클래스 개설
                                     </button>
@@ -351,7 +351,7 @@
     </div>
     <!-- 헤더메뉴 END -->
 
-    <!-- 02-17 강사소개 ajax 조지훈 -->
+    <!-- 02-17 강사소개 ajax-->
     <script th:src="@{/js/header.js}"></script>
     <script>
         /* 검색칸 팝업 */

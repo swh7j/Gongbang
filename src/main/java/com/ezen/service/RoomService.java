@@ -440,7 +440,7 @@ public class RoomService {
         return null;
     }
 
-    // 룸 삭제 02-18 조지훈
+    // 룸 삭제 02-18
     @Transactional
     public boolean roomdelete(int roomNo) {
         Optional<RoomEntity> entityOptional = roomRepository.findById(roomNo);
