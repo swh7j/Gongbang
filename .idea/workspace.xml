@@ -6,16 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="287172d0-d963-4f6f-922f-fcfc125c2dc5" name="Changes" comment="2/23 final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ezen/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ezen/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ezen/controller/RoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ezen/controller/RoomController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ezen/domain/dto/ReplyDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ezen/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ezen/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ezen/service/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ezen/service/RoomService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/member/channel.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/member/channel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/member/member_class.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/member/member_class.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/room/room_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/room/room_view.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +98,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645600084594</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2/23 final">
+      <created>1645604213390</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645604213390</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2/23 final">
+      <created>1645604347319</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1645604347319</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,5 +129,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2/23 final" />
     <option name="LAST_COMMIT_MESSAGE" value="2/23 final" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ezen/AppStart.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
